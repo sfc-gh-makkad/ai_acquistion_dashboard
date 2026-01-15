@@ -82,6 +82,7 @@ class SlackMonitor:
         Example: If Hannah replies to a thread and someone adds ✅ to her reply,
         Hannah gets +1 point in the leaderboard
         """
+        
         scores = {}
         
         for msg in messages:
